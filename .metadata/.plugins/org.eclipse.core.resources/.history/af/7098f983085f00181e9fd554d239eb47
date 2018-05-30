@@ -1,0 +1,7 @@
+package practice;
+
+public class Listpractice {
+
+	public static String ArrayList;
+	public int add=1;
+}
