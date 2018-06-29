@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1530240302900" analysisTimestamp="1530240301730" release="">
+  <Project projectName="practice">
+    <Jar>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\build\classes</Jar>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\build\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-storeconfig.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\ecj-4.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jni.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util-scan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-websocket.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\websocket-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\commons-fileupload-1.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\commons-lang3-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\freemarker-2.3.22.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\javassist-3.11.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\mysql-connector-java-5.1.46-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\ognl-3.0.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\struts2-core-2.3.34.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\WebContent\WEB-INF\lib\xwork-core-2.3.34.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\8\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\internousdev\Desktop\workspace\workspace-hiramatsu\test\practice\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.action.LoginAction">
+      <SourceLine classname="com.internousdev.practice.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/practice/action/LoginAction.java"/>
+    </Class>
+    <Field classname="com.internousdev.practice.action.LoginAction" name="buyItemDAO" signature="Lcom/internousdev/practice/dao/BuyItemDAO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/practice/action/LoginAction.java"/>
+    </Field>
+    <Type descriptor="Lcom/internousdev/practice/dao/BuyItemDAO;" role="TYPE_FOUND">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="10" end="35" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.action.LoginAction">
+      <SourceLine classname="com.internousdev.practice.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/practice/action/LoginAction.java"/>
+    </Class>
+    <Field classname="com.internousdev.practice.action.LoginAction" name="loginDAO" signature="Lcom/internousdev/practice/dao/LoginDAO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/practice/action/LoginAction.java"/>
+    </Field>
+    <Type descriptor="Lcom/internousdev/practice/dao/LoginDAO;" role="TYPE_FOUND">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="10" end="44" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.action.LoginAction">
+      <SourceLine classname="com.internousdev.practice.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/practice/action/LoginAction.java"/>
+    </Class>
+    <Field classname="com.internousdev.practice.action.LoginAction" name="loginDTO" signature="Lcom/internousdev/practice/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/practice/action/LoginAction.java"/>
+    </Field>
+    <Type descriptor="Lcom/internousdev/practice/dto/LoginDTO;" role="TYPE_FOUND">
+      <SourceLine classname="com.internousdev.practice.dto.LoginDTO" start="3" end="33" sourcefile="LoginDTO.java" sourcepath="com/internousdev/practice/dto/LoginDTO.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="SE_BAD_FIELD" priority="2" rank="16" abbrev="Se" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.action.UserCreateCompleteAction">
+      <SourceLine classname="com.internousdev.practice.action.UserCreateCompleteAction" sourcefile="UserCreateCompleteAction.java" sourcepath="com/internousdev/practice/action/UserCreateCompleteAction.java"/>
+    </Class>
+    <Field classname="com.internousdev.practice.action.UserCreateCompleteAction" name="userCreateCompleteDAO" signature="Lcom/internousdev/practice/dao/UserCreateCompleteDAO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.action.UserCreateCompleteAction" sourcefile="UserCreateCompleteAction.java" sourcepath="com/internousdev/practice/action/UserCreateCompleteAction.java"/>
+    </Field>
+    <Type descriptor="Lcom/internousdev/practice/dao/UserCreateCompleteDAO;" role="TYPE_FOUND">
+      <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="10" end="36" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+    </Type>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.practice.dao.BuyItemDAO">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.BuyItemDAO" name="getBuyItemInfo" signature="()Lcom/internousdev/practice/dto/BuyItemDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="17" end="32" startBytecode="0" endBytecode="242" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="21" end="21" startBytecode="15" endBytecode="15" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="23" end="23" startBytecode="21" endBytecode="21" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="32" end="32" startBytecode="83" endBytecode="83" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.practice.dao.BuyItemDAO">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.BuyItemDAO" name="getBuyItemInfo" signature="()Lcom/internousdev/practice/dto/BuyItemDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="17" end="32" startBytecode="0" endBytecode="242" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="20" end="20" startBytecode="8" endBytecode="8" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="21" end="21" startBytecode="14" endBytecode="14" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="23" end="23" startBytecode="21" endBytecode="21" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="32" end="32" startBytecode="83" endBytecode="83" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.dao.BuyItemDAO">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.BuyItemDAO" name="getBuyItemInfo" signature="()Lcom/internousdev/practice/dto/BuyItemDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="17" end="32" startBytecode="0" endBytecode="37" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="20" end="20" startBytecode="8" endBytecode="8" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+    <SourceLine classname="com.internousdev.practice.dao.BuyItemDAO" start="20" end="20" startBytecode="8" endBytecode="8" sourcefile="BuyItemDAO.java" sourcepath="com/internousdev/practice/dao/BuyItemDAO.java"/>
+  </BugInstance>
+  <BugInstance type="EC_NULL_ARG" priority="2" rank="9" abbrev="EC" category="CORRECTNESS" first="1">
+    <Class classname="com.internousdev.practice.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.LoginDAO" name="getLoginUserInfo" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/practice/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="18" end="41" startBytecode="0" endBytecode="55" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Method>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="33" end="33" startBytecode="110" endBytecode="110" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="33" end="33" startBytecode="110" endBytecode="110" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.practice.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.LoginDAO" name="getLoginUserInfo" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/practice/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="18" end="41" startBytecode="0" endBytecode="335" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="26" end="26" startBytecode="35" endBytecode="35" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="28" end="28" startBytecode="42" endBytecode="42" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="41" end="41" startBytecode="134" endBytecode="134" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.practice.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.LoginDAO" name="getLoginUserInfo" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/practice/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="18" end="41" startBytecode="0" endBytecode="335" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="21" end="21" startBytecode="8" endBytecode="8" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="23" end="23" startBytecode="15" endBytecode="15" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="24" end="24" startBytecode="24" endBytecode="24" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="26" end="26" startBytecode="33" endBytecode="33" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="28" end="28" startBytecode="42" endBytecode="42" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="41" end="41" startBytecode="134" endBytecode="134" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.LoginDAO" name="getLoginUserInfo" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/practice/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="18" end="41" startBytecode="0" endBytecode="55" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="21" end="21" startBytecode="8" endBytecode="8" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+    <SourceLine classname="com.internousdev.practice.dao.LoginDAO" start="21" end="21" startBytecode="8" endBytecode="8" sourcefile="LoginDAO.java" sourcepath="com/internousdev/practice/dao/LoginDAO.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.practice.dao.UserCreateCompleteDAO">
+      <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.UserCreateCompleteDAO" name="createUser" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="22" end="36" startBytecode="0" endBytecode="294" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="22" end="22" startBytecode="8" endBytecode="8" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="23" end="23" startBytecode="15" endBytecode="15" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="24" end="24" startBytecode="24" endBytecode="24" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="25" end="25" startBytecode="33" endBytecode="33" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="26" end="26" startBytecode="42" endBytecode="42" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="28" end="28" startBytecode="57" endBytecode="57" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="29" end="29" startBytecode="65" endBytecode="65" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="34" end="34" startBytecode="101" endBytecode="101" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="36" end="36" startBytecode="110" endBytecode="110" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.practice.dao.UserCreateCompleteDAO">
+      <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.practice.dao.UserCreateCompleteDAO" name="createUser" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="22" end="36" startBytecode="0" endBytecode="44" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="22" end="22" startBytecode="8" endBytecode="8" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+    <SourceLine classname="com.internousdev.practice.dao.UserCreateCompleteDAO" start="22" end="22" startBytecode="8" endBytecode="8" sourcefile="UserCreateCompleteDAO.java" sourcepath="com/internousdev/practice/dao/UserCreateCompleteDAO.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Jun 2018 11:27:00 +0900" total_classes="13" referenced_classes="50" total_bugs="13" total_size="304" num_packages="4" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="2.25" clock_seconds="1.17" peak_mbytes="807.78" alloc_mbytes="910.50" gc_seconds="0.09" priority_2="13">
+    <PackageStats package="com.internousdev.practice.action" total_bugs="4" total_types="6" total_size="151" priority_2="4">
+      <ClassStats class="com.internousdev.practice.action.GoHomeAction" sourceFile="GoHomeAction.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.internousdev.practice.action.HomeAction" sourceFile="HomeAction.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.internousdev.practice.action.LoginAction" sourceFile="LoginAction.java" interface="false" size="40" bugs="3" priority_2="3"/>
+      <ClassStats class="com.internousdev.practice.action.UserCreateAction" sourceFile="UserCreateAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.practice.action.UserCreateCompleteAction" sourceFile="UserCreateCompleteAction.java" interface="false" size="33" bugs="1" priority_2="1"/>
+      <ClassStats class="com.internousdev.practice.action.UserCreateConfirm" sourceFile="UserCreateConfirm.java" interface="false" size="43" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.practice.dao" total_bugs="9" total_types="3" total_size="75" priority_2="9">
+      <ClassStats class="com.internousdev.practice.dao.BuyItemDAO" sourceFile="BuyItemDAO.java" interface="false" size="23" bugs="3" priority_2="3"/>
+      <ClassStats class="com.internousdev.practice.dao.LoginDAO" sourceFile="LoginDAO.java" interface="false" size="27" bugs="4" priority_2="4"/>
+      <ClassStats class="com.internousdev.practice.dao.UserCreateCompleteDAO" sourceFile="UserCreateCompleteDAO.java" interface="false" size="25" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.practice.dto" total_bugs="0" total_types="2" total_size="49">
+      <ClassStats class="com.internousdev.practice.dto.BuyItemDTO" sourceFile="BuyItemDTO.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.internousdev.practice.dto.LoginDTO" sourceFile="LoginDTO.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.practice.util" total_bugs="0" total_types="2" total_size="29">
+      <ClassStats class="com.internousdev.practice.util.DBConnector" sourceFile="DBConnector.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.internousdev.practice.util.DateUtil" sourceFile="DateUtil.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="222" invocations="465" avgMicrosecondsPerInvocation="478" maxMicrosecondsPerInvocation="50082" standardDeviationMircosecondsPerInvocation="2394"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="188" invocations="2" avgMicrosecondsPerInvocation="94226" maxMicrosecondsPerInvocation="154118" standardDeviationMircosecondsPerInvocation="59892"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="91" invocations="470" avgMicrosecondsPerInvocation="195" maxMicrosecondsPerInvocation="3494" standardDeviationMircosecondsPerInvocation="165"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="53" invocations="50" avgMicrosecondsPerInvocation="1062" maxMicrosecondsPerInvocation="11398" standardDeviationMircosecondsPerInvocation="2182"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="49" invocations="50" avgMicrosecondsPerInvocation="980" maxMicrosecondsPerInvocation="11493" standardDeviationMircosecondsPerInvocation="2328"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="47" invocations="206" avgMicrosecondsPerInvocation="230" maxMicrosecondsPerInvocation="16376" standardDeviationMircosecondsPerInvocation="1153"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="27" invocations="67" avgMicrosecondsPerInvocation="415" maxMicrosecondsPerInvocation="6970" standardDeviationMircosecondsPerInvocation="1028"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer" totalMilliseconds="27" invocations="13" avgMicrosecondsPerInvocation="2089" maxMicrosecondsPerInvocation="25425" standardDeviationMircosecondsPerInvocation="6739"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="21" invocations="67" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="4304" standardDeviationMircosecondsPerInvocation="718"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="20" invocations="13" avgMicrosecondsPerInvocation="1559" maxMicrosecondsPerInvocation="11346" standardDeviationMircosecondsPerInvocation="2944"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="19" invocations="68" avgMicrosecondsPerInvocation="285" maxMicrosecondsPerInvocation="3670" standardDeviationMircosecondsPerInvocation="608"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="18" invocations="433" avgMicrosecondsPerInvocation="42" maxMicrosecondsPerInvocation="495" standardDeviationMircosecondsPerInvocation="49"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="15" invocations="37" avgMicrosecondsPerInvocation="415" maxMicrosecondsPerInvocation="4234" standardDeviationMircosecondsPerInvocation="641"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="14" invocations="50" avgMicrosecondsPerInvocation="285" maxMicrosecondsPerInvocation="4469" standardDeviationMircosecondsPerInvocation="753"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="14" invocations="22" avgMicrosecondsPerInvocation="640" maxMicrosecondsPerInvocation="8828" standardDeviationMircosecondsPerInvocation="1800"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="13" invocations="67" avgMicrosecondsPerInvocation="205" maxMicrosecondsPerInvocation="3491" standardDeviationMircosecondsPerInvocation="435"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.Naming" totalMilliseconds="13" invocations="13" avgMicrosecondsPerInvocation="1031" maxMicrosecondsPerInvocation="10435" standardDeviationMircosecondsPerInvocation="2761"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="13" invocations="68" avgMicrosecondsPerInvocation="194" maxMicrosecondsPerInvocation="1672" standardDeviationMircosecondsPerInvocation="339"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1530240302896" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
